@@ -25,6 +25,8 @@ export function fetchWeather(city) {
   };
 }
 
+// redux promise manipulates the data before it hits the reducer
+// middleware stops the action until the promise is resolved!
 
 // axios solely for ajax calls
 //payload that contains additional data (optional)
