@@ -1,8 +1,6 @@
 td, th {
   vertical-align: middle !important;
   text-align: center !important;
-
-
 }
 
 .input-group {
@@ -12,3 +10,11 @@ td, th {
 svg {
   height: 150px;
 }
+
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 250px;
+
+}
+
+/* find the first td on each row , and find the first td and the child div */
